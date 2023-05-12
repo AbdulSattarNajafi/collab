@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- ============ Montserrat Google Fonts ============ -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+            rel="stylesheet"
+        />
+        <!-- ========== Custom CSS Link ===========  -->
+        <link rel="stylesheet" href="./css/styles.css" />
+        <title>ActiveCollab</title>
+    </head>
+    <body>
+        <div class="layout">
+            <!-- =========== Sidebar Start ============ -->
+            <aside class="sidebar">
+                <div class="sidebar__logo">
+                    <a href="#" class="sidebar__logo-link">
+                        <img src="./images/logo-2.svg" alt="Logo" />
+                    </a>
+                </div>
+
+                <nav class="sidebar__nav">
+                    <ul class="sidebar__nav-list">
+                        <li class="sidebar__nav-item">
+                            <a href="#" class="sidebar__nav-link active">
+                                <span class="sidebar__nav-icon">
+                                    <img src="./images/icons/users.svg" alt="icon" />
+                                </span>
+                                <span>Clients</span>
+                            </a>
+                        </li>
+                        <li class="sidebar__nav-item">
+                            <a href="#" class="sidebar__nav-link">
+                                <span class="sidebar__nav-icon">
+                                    <img src="./images/icons/cpannel.svg" alt="icon" />
+                                </span>
+                                <span>cPanels</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+            <!-- =========== Sidebar End ============ -->
+
+            <div class="main-content">
+                <!-- ----------- Header Start -------- -->
+                <header class="header">
+                    <div class="header__title">
+                        <h3>Clients</h3>
+                    </div>
+                    <div class="header__search">
+                        <div class="header__search-wrapper">
+                            <form class="header__search-form">
+                                <input type="text" placeholder="Search..." />
+                            </form>
+                            <button id="search_btn">
+                                <img src="./images/icons/search.svg" alt="icon" />
+                            </button>
+                        </div>
+                        <div class="header__avatar">
+                            <img src="./images/icons/avatar.svg" alt="icon" />
+                        </div>
+                    </div>
+                </header>
+                <!-- ----------- Header End -------- -->
+
+                <!-- ----------- Menu Start -------- -->
+
+                <nav class="navigation">
+                    <div class="navigation__links">
+                        <ul class="navigation__list">
+                            <li class="navigation__list-item">
+                                <a href="#" class="navigation__list-link active">Active Clients </a>
+                            </li>
+                            <li class="navigation__list-item">
+                                <a href="#" class="navigation__list-link">Dormant Client</a>
+                            </li>
+                            <li class="navigation__list-item">
+                                <a href="#" class="navigation__list-link">Prospects</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="navigation__buttons">
+                        <button>
+                            <img src="./images/icons/plus.svg" alt="icon" />
+                        </button>
+
+                        <button class="navigation__toggler-btn">
+                            <img src="./images/icons/menu.svg" alt="icon" />
+                        </button>
+                    </div>
+                </nav>
+                <!-- ----------- Menu End -------- -->
+
+                <main>
+                    <!-- ----------- Client Section Start -------- -->
+                    <section class="clients">
+                        <ul class="avtive-client__list">
+                            <!-- Item 1 -->
+                            <li class="avtive-client__list-item">
+                                <div class="avtive-client__list-texts">
+                                    <img src="./images/icons/star.svg" alt="Star" />
+                                    <a href="./dashboard.html" class="avtive-client__list-link">
+                                        Adelaide Bathrooms
+                                    </a>
+                                </div>
+
+                                <ul class="avtive-client__tags">
+                                    <li>
+                                        <a href="#" class="avtive-client__tags-link">Web Design</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="avtive-client__tags-link">Logo Design</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- Item 2 -->
+                            <li class="avtive-client__list-item">
+                                <div class="avtive-client__list-texts">
+                                    <img src="./images/icons/star.svg" alt="Star" />
+                                    <a href="./dashboard.html" class="avtive-client__list-link">
+                                        Westrail Engineering
+                                    </a>
+                                </div>
+
+                                <ul class="avtive-client__tags">
+                                    <li>
+                                        <a href="#" class="avtive-client__tags-link">Hosting</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- Item 3 -->
+                            <li class="avtive-client__list-item">
+                                <div class="avtive-client__list-texts">
+                                    <img src="./images/icons/star.svg" alt="Star" />
+                                    <a href="./dashboard.html" class="avtive-client__list-link">
+                                        Creative Feed
+                                    </a>
+                                </div>
+
+                                <ul class="avtive-client__tags">
+                                    <li>
+                                        <a href="#" class="avtive-client__tags-link">Logo Design</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- Item 4 -->
+                            <li class="avtive-client__list-item">
+                                <div class="avtive-client__list-texts">
+                                    <img src="./images/icons/star-dark.svg" alt="Star" />
+                                    <a href="./dashboard.html" class="avtive-client__list-link">
+                                        Urban Creative Landscapes
+                                    </a>
+                                </div>
+
+                                <ul class="avtive-client__tags">
+                                    <li>
+                                        <a href="#" class="avtive-client__tags-link">SEO</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                    <!-- ----------- Client Section End -------- -->
+                </main>
+            </div>
+        </div>
+
+        <!-- =========== JS ============ -->
+        <script src="./js/index.js"></script>
+    </body>
+</html>

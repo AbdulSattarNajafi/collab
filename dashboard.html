@@ -1,0 +1,1429 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- ============ Montserrat Google Fonts ============ -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+            rel="stylesheet"
+        />
+        <!-- ========== Custom CSS Link ===========  -->
+        <link rel="stylesheet" href="./css/styles.css" />
+        <title>ActiveCollab</title>
+    </head>
+    <body>
+        <div class="layout">
+            <!-- =========== Sidebar Start ============ -->
+            <aside class="sidebar">
+                <div class="sidebar__logo">
+                    <a href="./index.html" class="sidebar__logo-link">
+                        <img src="./images/logo-2.svg" alt="Logo" />
+                    </a>
+                </div>
+
+                <nav class="sidebar__nav">
+                    <ul class="sidebar__nav-list">
+                        <li class="sidebar__nav-item">
+                            <a href="#" class="sidebar__nav-link active">
+                                <span class="sidebar__nav-icon">
+                                    <img src="./images/icons/users.svg" alt="icon" />
+                                </span>
+                                <span>Clients</span>
+                            </a>
+                        </li>
+                        <li class="sidebar__nav-item">
+                            <a href="#" class="sidebar__nav-link">
+                                <span class="sidebar__nav-icon">
+                                    <img src="./images/icons/cpannel.svg" alt="icon" />
+                                </span>
+                                <span>cPanels</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+            <!-- =========== Sidebar End ============ -->
+
+            <div class="main-content">
+                <!-- ----------- Header Start -------- -->
+                <header class="header">
+                    <div class="header__title">
+                        <button>
+                            <img src="./images/icons/chevron-left.svg" alt="icon" />
+                        </button>
+                        <h3>Australian Lease Management</h3>
+                    </div>
+                    <div class="header__search">
+                        <div class="header__search-wrapper">
+                            <form class="header__search-form">
+                                <input type="text" placeholder="Search..." />
+                            </form>
+                            <button id="search_btn">
+                                <img src="./images/icons/search.svg" alt="icon" />
+                            </button>
+                        </div>
+                        <div class="header__avatar">
+                            <img src="./images/icons/avatar.svg" alt="icon" />
+                        </div>
+                    </div>
+                </header>
+                <!-- ----------- Header End -------- -->
+
+                <!-- ----------- Menu Start -------- -->
+
+                <nav class="navigation">
+                    <div class="navigation__links">
+                        <ul class="navigation__list">
+                            <li class="navigation__list-item">
+                                <a href="#" class="navigation__list-link active">Dashboard</a>
+                            </li>
+                            <li class="navigation__list-item">
+                                <a href="#" class="navigation__list-link">Details</a>
+                            </li>
+                            <li class="navigation__list-item">
+                                <a href="./logins.html" class="navigation__list-link">Logins</a>
+                            </li>
+                            <li class="navigation__list-item">
+                                <a href="#" class="navigation__list-link">Domains</a>
+                            </li>
+                            <li class="navigation__list-item">
+                                <a href="#" class="navigation__list-link">Contacts</a>
+                            </li>
+                            <li class="navigation__list-item">
+                                <a href="#" class="navigation__list-link">Subscriptions</a>
+                            </li>
+                            <li class="navigation__list-item">
+                                <a href="#" class="navigation__list-link">Notes</a>
+                            </li>
+                        </ul>
+
+                        <button class="active-lab-btn">Active Collab</button>
+                    </div>
+
+                    <div class="navigation__buttons">
+                        <button>
+                            <img src="./images/icons/dots.svg" alt="icon" />
+                        </button>
+
+                        <button class="navigation__toggler-btn">
+                            <img src="./images/icons/menu.svg" alt="icon" />
+                        </button>
+                    </div>
+                </nav>
+
+                <!-- ----------- Menu End -------- -->
+
+                <main>
+                    <!-- ----------- Client Section Start -------- -->
+                    <section class="clients">
+                        <div class="clients__details">
+                            <!-- Details Card -->
+                            <div class="card details-card">
+                                <div class="card__header">
+                                    <h4>Details</h4>
+                                </div>
+
+                                <div class="card__body">
+                                    <ul class="details__address">
+                                        <li class="details__address-item">
+                                            <div class="details__address-title">
+                                                <p>Primary Contact</p>
+                                            </div>
+                                            <div class="details__address-text">Mark Raphael</div>
+                                        </li>
+                                        <li class="details__address-item">
+                                            <div class="details__address-title">
+                                                <p>Business Phone</p>
+                                            </div>
+                                            <div class="details__address-text">08 8364 2433</div>
+                                        </li>
+                                        <li class="details__address-item">
+                                            <div class="details__address-title">
+                                                <p>Mobile Phone</p>
+                                            </div>
+                                            <div class="details__address-text">0419 867 615</div>
+                                        </li>
+                                        <li class="details__address-item">
+                                            <div class="details__address-title">
+                                                <p>Email</p>
+                                            </div>
+                                            <div class="details__address-text">
+                                                mark@saleaseman.com.au
+                                            </div>
+                                        </li>
+                                        <li class="details__address-item">
+                                            <div class="details__address-title">
+                                                <p>Website</p>
+                                            </div>
+                                            <div class="details__address-text">
+                                                saleaseman.com.au
+                                            </div>
+                                        </li>
+                                        <li class="details__address-item">
+                                            <div class="details__address-title">
+                                                <p>Address</p>
+                                            </div>
+                                            <div class="details__address-text">
+                                                Level 2 - 178 Fullarton Road DULWICH SA 5065
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    <div class="details__services">
+                                        <h4>Services</h4>
+
+                                        <ul class="details__services-list">
+                                            <li>
+                                                <a href="#" class="details__services-link"
+                                                    >Web Design</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a href="#" class="details__services-link"
+                                                    >Graphic Design</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a href="#" class="details__services-link"
+                                                    >Logo Design</a
+                                                >
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Notes Card -->
+                            <div class="card notes-card">
+                                <div class="card__header">
+                                    <h4>Notes</h4>
+                                    <button>
+                                        <img src="./images/icons/edit.svg" alt="Icon" />
+                                    </button>
+                                </div>
+
+                                <div class="card__body">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur. Sapien nibh dictum
+                                        cras diam sed. Tempus risus faucibus viverra convallis
+                                        tellus viverra nisl nibh urna. Faucibus viverra semper
+                                        volutpat fringilla maecenas quis feugiat in quam. Et ut
+                                        viverra odio egestas dui arcu. Blandit mattis facilisis
+                                        massa etiam quam. Pellentesque porta ultrices non mattis.
+                                        Orci rutrum in leo porta eu nunc eget eget nec. Egestas elit
+                                        turpis.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="clients__logins">
+                            <!-- Logins Card -->
+                            <div class="card">
+                                <div class="card__header">
+                                    <h4>Logins</h4>
+                                    <button>
+                                        <img src="./images/icons/plus.svg" alt="Icon" />
+                                    </button>
+                                </div>
+
+                                <div class="card__body">
+                                    <ul class="card__body-list logins-list">
+                                        <!-- Item 1 -->
+                                        <li class="card__body-item">
+                                            <div
+                                                class="logins__list-texts"
+                                                data-content="cpanel-content"
+                                            >
+                                                <p>
+                                                    <span>cPanel</span> GrahamWest@leaseman.com.au
+                                                </p>
+                                            </div>
+
+                                            <div class="logins__list-links">
+                                                <button class="copy-btn">
+                                                    <img src="./images/icons/copy.svg" alt="icon" />
+                                                    <span class="copy-btn__tooltip-hover">
+                                                        Copy
+                                                    </span>
+                                                    <span class="copy-btn__tooltip-click">
+                                                        Copied
+                                                    </span>
+                                                </button>
+                                                <a href="https://www.google.com/" target="_blank">
+                                                    <img src="./images/icons/link.svg" alt="icon" />
+                                                </a>
+                                                <div class="dropdown logins__dropdown">
+                                                    <button class="dropdown__btn">
+                                                        <img
+                                                            src="./images/icons/dots.svg"
+                                                            alt="icon"
+                                                        />
+                                                    </button>
+
+                                                    <div class="dropdonw__content">
+                                                        <button
+                                                            class="dropdonw__content-btn edit-logins-btn"
+                                                            data-toggle="cpanel-edit-content"
+                                                        >
+                                                            <img
+                                                                src="./images/icons/edit.svg"
+                                                                alt="icon"
+                                                            />
+                                                            <span>Edit</span>
+                                                        </button>
+                                                        <button class="dropdonw__content-btn">
+                                                            <img
+                                                                src="./images/icons/delete.svg"
+                                                                alt="icon"
+                                                            />
+                                                            <span>Delete</span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <!-- Item 2 -->
+                                        <li class="card__body-item">
+                                            <div
+                                                class="logins__list-texts"
+                                                data-content="website-content"
+                                            >
+                                                <p><span>Website</span> admin</p>
+                                            </div>
+
+                                            <div class="logins__list-links">
+                                                <button class="copy-btn">
+                                                    <img src="./images/icons/copy.svg" alt="icon" />
+                                                    <span class="copy-btn__tooltip-hover">
+                                                        Copy
+                                                    </span>
+                                                    <span class="copy-btn__tooltip-click">
+                                                        Copied
+                                                    </span>
+                                                </button>
+                                                <a href="https://www.google.com/" target="_blank">
+                                                    <img src="./images/icons/link.svg" alt="icon" />
+                                                </a>
+                                                <div class="dropdown logins__dropdown">
+                                                    <button class="dropdown__btn">
+                                                        <img
+                                                            src="./images/icons/dots.svg"
+                                                            alt="icon"
+                                                        />
+                                                    </button>
+
+                                                    <div class="dropdonw__content">
+                                                        <button
+                                                            class="dropdonw__content-btn edit-logins-btn"
+                                                            data-toggle="website-edit-content"
+                                                        >
+                                                            <img
+                                                                src="./images/icons/edit.svg"
+                                                                alt="icon"
+                                                            />
+                                                            <span>Edit</span>
+                                                        </button>
+                                                        <button class="dropdonw__content-btn">
+                                                            <img
+                                                                src="./images/icons/delete.svg"
+                                                                alt="icon"
+                                                            />
+                                                            <span>Delete</span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <!-- Item 3 -->
+                                        <li class="card__body-item">
+                                            <div
+                                                class="logins__list-texts"
+                                                data-content="opensrs-content"
+                                            >
+                                                <p><span>OpenSRS</span> admin@leaseman.com.au</p>
+                                            </div>
+
+                                            <div class="logins__list-links">
+                                                <button class="copy-btn">
+                                                    <img src="./images/icons/copy.svg" alt="icon" />
+                                                    <span class="copy-btn__tooltip-hover">
+                                                        Copy
+                                                    </span>
+                                                    <span class="copy-btn__tooltip-click">
+                                                        Copied
+                                                    </span>
+                                                </button>
+                                                <a href="https://www.google.com/" target="_blank">
+                                                    <img src="./images/icons/link.svg" alt="icon" />
+                                                </a>
+                                                <div class="dropdown logins__dropdown">
+                                                    <button class="dropdown__btn">
+                                                        <img
+                                                            src="./images/icons/dots.svg"
+                                                            alt="icon"
+                                                        />
+                                                    </button>
+
+                                                    <div class="dropdonw__content">
+                                                        <button
+                                                            class="dropdonw__content-btn edit-logins-btn"
+                                                            data-toggle="opensrs-edit-content"
+                                                        >
+                                                            <img
+                                                                src="./images/icons/edit.svg"
+                                                                alt="icon"
+                                                            />
+                                                            <span>Edit</span>
+                                                        </button>
+                                                        <button class="dropdonw__content-btn">
+                                                            <img
+                                                                src="./images/icons/delete.svg"
+                                                                alt="icon"
+                                                            />
+                                                            <span>Delete</span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <!-- Item 4 -->
+                                        <li class="card__body-item">
+                                            <div
+                                                class="logins__list-texts"
+                                                data-content="domain-content"
+                                            >
+                                                <p><span>Domain </span> cfdomains</p>
+                                            </div>
+
+                                            <div class="logins__list-links">
+                                                <button class="copy-btn">
+                                                    <img src="./images/icons/copy.svg" alt="icon" />
+                                                    <span class="copy-btn__tooltip-hover">
+                                                        Copy
+                                                    </span>
+                                                    <span class="copy-btn__tooltip-click">
+                                                        Copied
+                                                    </span>
+                                                </button>
+                                                <a href="https://www.google.com/" target="_blank">
+                                                    <img src="./images/icons/link.svg" alt="icon" />
+                                                </a>
+                                                <div class="dropdown logins__dropdown">
+                                                    <button class="dropdown__btn">
+                                                        <img
+                                                            src="./images/icons/dots.svg"
+                                                            alt="icon"
+                                                        />
+                                                    </button>
+
+                                                    <div class="dropdonw__content">
+                                                        <button
+                                                            class="dropdonw__content-btn edit-logins-btn"
+                                                            data-toggle="domains-edit-content"
+                                                        >
+                                                            <img
+                                                                src="./images/icons/edit.svg"
+                                                                alt="icon"
+                                                            />
+                                                            <span>Edit</span>
+                                                        </button>
+                                                        <button class="dropdonw__content-btn">
+                                                            <img
+                                                                src="./images/icons/delete.svg"
+                                                                alt="icon"
+                                                            />
+                                                            <span>Delete</span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <!-- Item 5 -->
+                                        <li class="card__body-item">
+                                            <div
+                                                class="logins__list-texts"
+                                                data-content="facebook-content"
+                                            >
+                                                <p><span>Facebook</span> Username: graham.west</p>
+                                            </div>
+
+                                            <div class="logins__list-links">
+                                                <button class="copy-btn">
+                                                    <img src="./images/icons/copy.svg" alt="icon" />
+                                                    <span class="copy-btn__tooltip-hover">
+                                                        Copy
+                                                    </span>
+                                                    <span class="copy-btn__tooltip-click">
+                                                        Copied
+                                                    </span>
+                                                </button>
+                                                <a href="https://www.google.com/" target="_blank">
+                                                    <img src="./images/icons/link.svg" alt="icon" />
+                                                </a>
+                                                <div class="dropdown logins__dropdown">
+                                                    <button class="dropdown__btn">
+                                                        <img
+                                                            src="./images/icons/dots.svg"
+                                                            alt="icon"
+                                                        />
+                                                    </button>
+
+                                                    <div class="dropdonw__content">
+                                                        <button
+                                                            class="dropdonw__content-btn edit-logins-btn"
+                                                            data-toggle="facebook-edit-content"
+                                                        >
+                                                            <img
+                                                                src="./images/icons/edit.svg"
+                                                                alt="icon"
+                                                            />
+                                                            <span>Edit</span>
+                                                        </button>
+                                                        <button class="dropdonw__content-btn">
+                                                            <img
+                                                                src="./images/icons/delete.svg"
+                                                                alt="icon"
+                                                            />
+                                                            <span>Delete</span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Domains Card -->
+                            <div class="card">
+                                <div class="card__header">
+                                    <h4>Domains</h4>
+                                    <button>
+                                        <img src="./images/icons/plus.svg" alt="Icon" />
+                                    </button>
+                                </div>
+
+                                <div class="card__body">
+                                    <ul class="card__body-list">
+                                        <!-- Item 1 -->
+                                        <li class="card__body-item">
+                                            <div class="domains__list-text">
+                                                <div class="domains__list-domain">
+                                                    <p>saleaseman.com.au</p>
+                                                </div>
+                                                <div class="domains__list-date">
+                                                    <p>16/12/25</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="domains__list-link">
+                                                <p>Crazy Domains</p>
+                                                <a href="https://www.google.com/" target="_blank">
+                                                    <img src="./images/icons/link.svg" alt="icon" />
+                                                </a>
+                                                <div class="dropdown domains__dropdown">
+                                                    <button class="dropdown__btn">
+                                                        <img
+                                                            src="./images/icons/dots.svg"
+                                                            alt="icon"
+                                                        />
+                                                    </button>
+
+                                                    <div class="dropdonw__content">
+                                                        <button class="dropdonw__content-btn">
+                                                            <img
+                                                                src="./images/icons/edit.svg"
+                                                                alt="icon"
+                                                            />
+                                                            <span>Edit</span>
+                                                        </button>
+                                                        <button class="dropdonw__content-btn">
+                                                            <img
+                                                                src="./images/icons/delete.svg"
+                                                                alt="icon"
+                                                            />
+                                                            <span>Delete</span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <!-- Item 2 -->
+                                        <li class="card__body-item">
+                                            <div class="domains__list-text">
+                                                <div class="domains__list-domain">
+                                                    <p>saleaseman.au</p>
+                                                </div>
+                                                <div class="domains__list-date">
+                                                    <p>17/9/24</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="domains__list-link">
+                                                <p>Crazy Domains</p>
+                                                <a href="https://www.google.com/" target="_blank">
+                                                    <img src="./images/icons/link.svg" alt="icon" />
+                                                </a>
+                                                <div class="dropdown domains__dropdown">
+                                                    <button class="dropdown__btn">
+                                                        <img
+                                                            src="./images/icons/dots.svg"
+                                                            alt="icon"
+                                                        />
+                                                    </button>
+
+                                                    <div class="dropdonw__content">
+                                                        <button class="dropdonw__content-btn">
+                                                            <img
+                                                                src="./images/icons/edit.svg"
+                                                                alt="icon"
+                                                            />
+                                                            <span>Edit</span>
+                                                        </button>
+                                                        <button class="dropdonw__content-btn">
+                                                            <img
+                                                                src="./images/icons/delete.svg"
+                                                                alt="icon"
+                                                            />
+                                                            <span>Delete</span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <!-- Item 3 -->
+                                        <li class="card__body-item">
+                                            <div class="domains__list-text">
+                                                <div class="domains__list-domain">
+                                                    <p>leaseman.au</p>
+                                                </div>
+                                                <div class="domains__list-date">
+                                                    <p>14/5/27</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="domains__list-link">
+                                                <p>Web Central</p>
+                                                <a href="https://www.google.com/" target="_blank">
+                                                    <img src="./images/icons/link.svg" alt="icon" />
+                                                </a>
+                                                <div class="dropdown domains__dropdown">
+                                                    <button class="dropdown__btn">
+                                                        <img
+                                                            src="./images/icons/dots.svg"
+                                                            alt="icon"
+                                                        />
+                                                    </button>
+
+                                                    <div class="dropdonw__content">
+                                                        <button class="dropdonw__content-btn">
+                                                            <img
+                                                                src="./images/icons/edit.svg"
+                                                                alt="icon"
+                                                            />
+                                                            <span>Edit</span>
+                                                        </button>
+                                                        <button class="dropdonw__content-btn">
+                                                            <img
+                                                                src="./images/icons/delete.svg"
+                                                                alt="icon"
+                                                            />
+                                                            <span>Delete</span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Contacts Card -->
+                            <div class="card">
+                                <div class="card__header">
+                                    <h4>Contacts</h4>
+                                    <button>
+                                        <img src="./images/icons/plus.svg" alt="Icon" />
+                                    </button>
+                                </div>
+
+                                <div class="card__body">
+                                    <ul class="card__body-list">
+                                        <!-- Item 1 -->
+                                        <li class="card__body-item">
+                                            <div class="contacts__list-texts">
+                                                <div class="contacts__list-name">
+                                                    <p>Thomas Waterhouse</p>
+                                                </div>
+                                                <p>
+                                                    IT Support @ SprintIT | 0435 342 124 |
+                                                    thomas@sprint.com.au
+                                                </p>
+                                            </div>
+
+                                            <div class="dropdown contacts__dropdown">
+                                                <button class="dropdown__btn">
+                                                    <img src="./images/icons/dots.svg" alt="icon" />
+                                                </button>
+
+                                                <div class="dropdonw__content">
+                                                    <button class="dropdonw__content-btn">
+                                                        <img
+                                                            src="./images/icons/edit.svg"
+                                                            alt="icon"
+                                                        />
+                                                        <span>Edit</span>
+                                                    </button>
+                                                    <button class="dropdonw__content-btn">
+                                                        <img
+                                                            src="./images/icons/delete.svg"
+                                                            alt="icon"
+                                                        />
+                                                        <span>Delete</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <!-- Item 2 -->
+                                        <li class="card__body-item">
+                                            <div class="contacts__list-texts">
+                                                <div class="contacts__list-name">
+                                                    <p>Kathy Zanker</p>
+                                                </div>
+                                                <p>Send invoices to - kathy@leaseman.com.au</p>
+                                            </div>
+
+                                            <div class="dropdown contacts__dropdown">
+                                                <button class="dropdown__btn">
+                                                    <img src="./images/icons/dots.svg" alt="icon" />
+                                                </button>
+
+                                                <div class="dropdonw__content">
+                                                    <button class="dropdonw__content-btn">
+                                                        <img
+                                                            src="./images/icons/edit.svg"
+                                                            alt="icon"
+                                                        />
+                                                        <span>Edit</span>
+                                                    </button>
+                                                    <button class="dropdonw__content-btn">
+                                                        <img
+                                                            src="./images/icons/delete.svg"
+                                                            alt="icon"
+                                                        />
+                                                        <span>Delete</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <!-- Item 3 -->
+                                        <li class="card__body-item">
+                                            <div class="contacts__list-texts">
+                                                <div class="contacts__list-name">
+                                                    <p>Giles</p>
+                                                </div>
+                                                <p>
+                                                    Director - 0401 498 028 - giles@leaseman.com.au
+                                                </p>
+                                            </div>
+
+                                            <div class="dropdown contacts__dropdown">
+                                                <button class="dropdown__btn">
+                                                    <img src="./images/icons/dots.svg" alt="icon" />
+                                                </button>
+
+                                                <div class="dropdonw__content">
+                                                    <button class="dropdonw__content-btn">
+                                                        <img
+                                                            src="./images/icons/edit.svg"
+                                                            alt="icon"
+                                                        />
+                                                        <span>Edit</span>
+                                                    </button>
+                                                    <button class="dropdonw__content-btn">
+                                                        <img
+                                                            src="./images/icons/delete.svg"
+                                                            alt="icon"
+                                                        />
+                                                        <span>Delete</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <!-- Item 4 -->
+                                        <li class="card__body-item">
+                                            <div class="contacts__list-texts">
+                                                <div class="contacts__list-name">
+                                                    <p>Tamara Caire</p>
+                                                </div>
+                                                <p>
+                                                    Marketing @ NFM - 0413 469 938 -
+                                                    tamara@nfmagency.com.au
+                                                </p>
+                                            </div>
+
+                                            <div class="dropdown contacts__dropdown">
+                                                <button class="dropdown__btn">
+                                                    <img src="./images/icons/dots.svg" alt="icon" />
+                                                </button>
+
+                                                <div class="dropdonw__content">
+                                                    <button class="dropdonw__content-btn">
+                                                        <img
+                                                            src="./images/icons/edit.svg"
+                                                            alt="icon"
+                                                        />
+                                                        <span>Edit</span>
+                                                    </button>
+                                                    <button class="dropdonw__content-btn">
+                                                        <img
+                                                            src="./images/icons/delete.svg"
+                                                            alt="icon"
+                                                        />
+                                                        <span>Delete</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Contacts Card -->
+                            <div class="card">
+                                <div class="card__header">
+                                    <h4>Contacts</h4>
+                                    <button>
+                                        <img src="./images/icons/plus.svg" alt="Icon" />
+                                    </button>
+                                </div>
+
+                                <div class="card__body">
+                                    <ul class="card__body-list">
+                                        <!-- Item 1 -->
+                                        <li class="card__body-item">
+                                            <div class="subscription__details">
+                                                <div class="subscription__details-email">
+                                                    <p>Email</p>
+                                                </div>
+                                                <div class="subscription__details-panel">
+                                                    <p>Inveress cPanel</p>
+                                                </div>
+                                                <div class="subscription__details-annual">
+                                                    <p>Annual</p>
+                                                </div>
+                                                <div class="subscription__details-price">
+                                                    <p>$50</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="dropdown subscription__dropdown">
+                                                <button class="dropdown__btn">
+                                                    <img src="./images/icons/dots.svg" alt="icon" />
+                                                </button>
+
+                                                <div class="dropdonw__content">
+                                                    <button class="dropdonw__content-btn">
+                                                        <img
+                                                            src="./images/icons/edit.svg"
+                                                            alt="icon"
+                                                        />
+                                                        <span>Edit</span>
+                                                    </button>
+                                                    <button class="dropdonw__content-btn">
+                                                        <img
+                                                            src="./images/icons/delete.svg"
+                                                            alt="icon"
+                                                        />
+                                                        <span>Delete</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <!-- Item 2 -->
+                                        <li class="card__body-item">
+                                            <div class="subscription__details">
+                                                <div class="subscription__details-email">
+                                                    <p>Maintenance</p>
+                                                </div>
+                                                <div class="subscription__details-panel">
+                                                    <p>Inveress</p>
+                                                </div>
+                                                <div class="subscription__details-annual">
+                                                    <p>Quarterly</p>
+                                                </div>
+                                                <div class="subscription__details-price">
+                                                    <p>$60</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="dropdown subscription__dropdown">
+                                                <button class="dropdown__btn">
+                                                    <img src="./images/icons/dots.svg" alt="icon" />
+                                                </button>
+
+                                                <div class="dropdonw__content">
+                                                    <button class="dropdonw__content-btn">
+                                                        <img
+                                                            src="./images/icons/edit.svg"
+                                                            alt="icon"
+                                                        />
+                                                        <span>Edit</span>
+                                                    </button>
+                                                    <button class="dropdonw__content-btn">
+                                                        <img
+                                                            src="./images/icons/delete.svg"
+                                                            alt="icon"
+                                                        />
+                                                        <span>Delete</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <!-- Item 3 -->
+                                        <li class="card__body-item">
+                                            <div class="subscription__details">
+                                                <div class="subscription__details-email">
+                                                    <p>Web hosting</p>
+                                                </div>
+                                                <div class="subscription__details-panel">
+                                                    <p>Simvoly</p>
+                                                </div>
+                                                <div class="subscription__details-annual">
+                                                    <p>Annually</p>
+                                                </div>
+                                                <div class="subscription__details-price">
+                                                    <p>$76</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="dropdown subscription__dropdown">
+                                                <button class="dropdown__btn">
+                                                    <img src="./images/icons/dots.svg" alt="icon" />
+                                                </button>
+
+                                                <div class="dropdonw__content">
+                                                    <button class="dropdonw__content-btn">
+                                                        <img
+                                                            src="./images/icons/edit.svg"
+                                                            alt="icon"
+                                                        />
+                                                        <span>Edit</span>
+                                                    </button>
+                                                    <button class="dropdonw__content-btn">
+                                                        <img
+                                                            src="./images/icons/delete.svg"
+                                                            alt="icon"
+                                                        />
+                                                        <span>Delete</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <!-- Item 4 -->
+                                        <li class="card__body-item">
+                                            <div class="subscription__details">
+                                                <div class="subscription__details-email">
+                                                    <p>Domain</p>
+                                                </div>
+                                                <div class="subscription__details-panel">
+                                                    <p>Crazy Domain</p>
+                                                </div>
+                                                <div class="subscription__details-annual">
+                                                    <p>Yearly</p>
+                                                </div>
+                                                <div class="subscription__details-price">
+                                                    <p>$25</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="dropdown subscription__dropdown">
+                                                <button class="dropdown__btn">
+                                                    <img src="./images/icons/dots.svg" alt="icon" />
+                                                </button>
+
+                                                <div class="dropdonw__content">
+                                                    <button class="dropdonw__content-btn">
+                                                        <img
+                                                            src="./images/icons/edit.svg"
+                                                            alt="icon"
+                                                        />
+                                                        <span>Edit</span>
+                                                    </button>
+                                                    <button class="dropdonw__content-btn">
+                                                        <img
+                                                            src="./images/icons/delete.svg"
+                                                            alt="icon"
+                                                        />
+                                                        <span>Delete</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- ----------- Client Section End -------- -->
+                </main>
+            </div>
+
+            <!-- =========== Drawer ============= -->
+            <div class="drawer__backdrop"></div>
+            <div class="drawer">
+                <button class="drawer__btn">
+                    <img src="./images/icons/times.svg" alt="icon" />
+                </button>
+                <div class="drawer__content-wrapper">
+                    <h4>Login</h4>
+                    <!-- C-Pannel Content -->
+                    <div class="drawer__content cpanel-content">
+                        <h5>cPanel</h5>
+                        <div class="drawer__content-row">
+                            <p class="drawer__content-title">Username</p>
+                            <p>creativefeed</p>
+                            <button>
+                                <img src="./images/icons/copy.svg" alt="icon" />
+                            </button>
+                        </div>
+                        <div class="drawer__content-row">
+                            <p class="drawer__content-title">Password</p>
+                            <input
+                                class="password-input"
+                                type="password"
+                                readonly
+                                data-id="cpanel-password"
+                            />
+                            <button>
+                                <img src="./images/icons/copy.svg" alt="icon" />
+                            </button>
+                            <button class="show-password-btn" data-id="cpanel-password">
+                                <img src="./images/icons/eye.svg" alt="icon" />
+                            </button>
+                        </div>
+                        <div class="drawer__content-row">
+                            <p class="drawer__content-title">URL</p>
+                            <p>https://creativefeed.com.au/cpanel</p>
+                            <button>
+                                <img src="./images/icons/copy.svg" alt="icon" />
+                            </button>
+                        </div>
+                        <div class="drawer__content-row items-start">
+                            <p class="drawer__content-title">Notes</p>
+                            <p>
+                                Lremgilla maecenas quis feugiat in quam. Et ut viverra odio egestas
+                                dui arcu. Blandit mattis facilisis massa etiam quam. P
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Cpanel Edit Content -->
+                    <div class="drawer__content cpanel-edit-content">
+                        <div class="drawer__dropdown">
+                            <button class="drawer__dropdown-btn">cPanel</button>
+
+                            <ul class="drawer__dropdown-list">
+                                <li class="active" data-edit="cpanel-edit-content">cPanel</li>
+                                <li data-edit="website-edit-content">Website</li>
+                                <li data-edit="opensrs-edit-content">OpenSRS</li>
+                                <li data-edit="domains-edit-content">Domain</li>
+                                <li data-edit="facebook-edit-content">Facebook</li>
+                            </ul>
+                        </div>
+
+                        <form class="drawer__form">
+                            <div class="drawer__form-row">
+                                <label for="user-name">Username</label>
+                                <input type="text" id="user-name" value="creativefeed" />
+                            </div>
+                            <div class="drawer__form-row">
+                                <label for="password">Password</label>
+                                <input type="password" id="password" value="password123" />
+                            </div>
+                            <div class="drawer__form-row">
+                                <label for="url">URL</label>
+                                <input
+                                    type="url"
+                                    id="url"
+                                    value="https://creativefeed.com.au/cpanel"
+                                />
+                            </div>
+                            <div class="drawer__form-row items-start">
+                                <label for="notes">Notes</label>
+                                <textarea name="notes" id="notes"></textarea>
+                            </div>
+                            <div class="drawer__form-buttons">
+                                <button type="submit" class="btn primary-btn">Add Login</button>
+                                <button type="button" class="btn secondary-btn cancel-btn">
+                                    Cancel
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Website Content -->
+                    <div class="drawer__content website-content">
+                        <h5>Website</h5>
+                        <div class="drawer__content-row">
+                            <p class="drawer__content-title">Username</p>
+                            <p>creativefeed</p>
+                            <button>
+                                <img src="./images/icons/copy.svg" alt="icon" />
+                            </button>
+                        </div>
+                        <div class="drawer__content-row">
+                            <p class="drawer__content-title">Password</p>
+                            <input
+                                class="password-input"
+                                type="password"
+                                readonly
+                                data-id="website-password"
+                            />
+                            <button>
+                                <img src="./images/icons/copy.svg" alt="icon" />
+                            </button>
+                            <button class="show-password-btn" data-id="website-password">
+                                <img src="./images/icons/eye.svg" alt="icon" />
+                            </button>
+                        </div>
+                        <div class="drawer__content-row">
+                            <p class="drawer__content-title">URL</p>
+                            <p>https://creativefeed.com.au/cpanel</p>
+                            <button>
+                                <img src="./images/icons/copy.svg" alt="icon" />
+                            </button>
+                        </div>
+                        <div class="drawer__content-row items-start">
+                            <p class="drawer__content-title">Notes</p>
+                            <p>
+                                Lremgilla maecenas quis feugiat in quam. Et ut viverra odio egestas
+                                dui arcu. Blandit mattis facilisis massa etiam quam. P
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Website Edit Content -->
+                    <div class="drawer__content website-edit-content">
+                        <div class="drawer__dropdown">
+                            <button class="drawer__dropdown-btn">Website</button>
+
+                            <ul class="drawer__dropdown-list">
+                                <li data-edit="cpanel-edit-content">cPanel</li>
+                                <li class="active" data-edit="website-edit-content">Website</li>
+                                <li data-edit="opensrs-edit-content">OpenSRS</li>
+                                <li data-edit="domains-edit-content">Domain</li>
+                                <li data-edit="facebook-edit-content">Facebook</li>
+                            </ul>
+                        </div>
+
+                        <form class="drawer__form">
+                            <div class="drawer__form-row">
+                                <label for="website-user-name">Username</label>
+                                <input type="text" id="website-user-name" value="creativefeed" />
+                            </div>
+                            <div class="drawer__form-row">
+                                <label for="website-password">Password</label>
+                                <input type="password" id="website-password" value="password123" />
+                            </div>
+                            <div class="drawer__form-row">
+                                <label for="website-url">URL</label>
+                                <input
+                                    type="url"
+                                    id="website-url"
+                                    value="https://creativefeed.com.au/cpanel"
+                                />
+                            </div>
+                            <div class="drawer__form-row items-start">
+                                <label for="website-notes">Notes</label>
+                                <textarea name="notes" id="website-notes"></textarea>
+                            </div>
+                            <div class="drawer__form-buttons">
+                                <button type="submit" class="btn primary-btn">Add Login</button>
+                                <button type="button" class="btn secondary-btn cancel-btn">
+                                    Cancel
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Domain Content -->
+                    <div class="drawer__content domain-content">
+                        <h5>Domain</h5>
+                        <div class="drawer__content-row">
+                            <p class="drawer__content-title">Username</p>
+                            <p>creativefeed</p>
+                            <button>
+                                <img src="./images/icons/copy.svg" alt="icon" />
+                            </button>
+                        </div>
+                        <div class="drawer__content-row">
+                            <p class="drawer__content-title">Password</p>
+                            <input
+                                class="password-input"
+                                type="password"
+                                readonly
+                                data-id="domain-password"
+                            />
+                            <button>
+                                <img src="./images/icons/copy.svg" alt="icon" />
+                            </button>
+                            <button class="show-password-btn" data-id="domain-password">
+                                <img src="./images/icons/eye.svg" alt="icon" />
+                            </button>
+                        </div>
+                        <div class="drawer__content-row">
+                            <p class="drawer__content-title">URL</p>
+                            <p>https://creativefeed.com.au/cpanel</p>
+                            <button>
+                                <img src="./images/icons/copy.svg" alt="icon" />
+                            </button>
+                        </div>
+                        <div class="drawer__content-row items-start">
+                            <p class="drawer__content-title">Notes</p>
+                            <p>
+                                Lremgilla maecenas quis feugiat in quam. Et ut viverra odio egestas
+                                dui arcu. Blandit mattis facilisis massa etiam quam. P
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Domains Edit Content -->
+                    <div class="drawer__content domains-edit-content">
+                        <div class="drawer__dropdown">
+                            <button class="drawer__dropdown-btn">Domain</button>
+
+                            <ul class="drawer__dropdown-list">
+                                <li data-edit="cpanel-edit-content">cPanel</li>
+                                <li data-edit="website-edit-content">Website</li>
+                                <li data-edit="opensrs-edit-content">OpenSRS</li>
+                                <li class="active" data-edit="domains-edit-content">Domain</li>
+                                <li data-edit="facebook-edit-content">Facebook</li>
+                            </ul>
+                        </div>
+
+                        <form class="drawer__form">
+                            <div class="drawer__form-row">
+                                <label for="domains-user-name">Username</label>
+                                <input type="text" id="domains-user-name" value="creativefeed" />
+                            </div>
+                            <div class="drawer__form-row">
+                                <label for="domains-password">Password</label>
+                                <input type="password" id="domains-password" value="password123" />
+                            </div>
+                            <div class="drawer__form-row">
+                                <label for="domains-url">URL</label>
+                                <input
+                                    type="url"
+                                    id="domains-url"
+                                    value="https://creativefeed.com.au/cpanel"
+                                />
+                            </div>
+                            <div class="drawer__form-row items-start">
+                                <label for="domains-notes">Notes</label>
+                                <textarea name="notes" id="domains-notes"></textarea>
+                            </div>
+                            <div class="drawer__form-buttons">
+                                <button type="submit" class="btn primary-btn">Add Login</button>
+                                <button type="button" class="btn secondary-btn cancel-btn">
+                                    Cancel
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Facebook Content -->
+                    <div class="drawer__content facebook-content">
+                        <h5>Facebook</h5>
+                        <div class="drawer__content-row">
+                            <p class="drawer__content-title">Username</p>
+                            <p>creativefeed</p>
+                            <button>
+                                <img src="./images/icons/copy.svg" alt="icon" />
+                            </button>
+                        </div>
+                        <div class="drawer__content-row">
+                            <p class="drawer__content-title">Password</p>
+                            <input
+                                class="password-input"
+                                type="password"
+                                readonly
+                                data-id="facebook-password"
+                            />
+                            <button>
+                                <img src="./images/icons/copy.svg" alt="icon" />
+                            </button>
+                            <button class="show-password-btn" data-id="facebook-password">
+                                <img src="./images/icons/eye.svg" alt="icon" />
+                            </button>
+                        </div>
+                        <div class="drawer__content-row">
+                            <p class="drawer__content-title">URL</p>
+                            <p>https://creativefeed.com.au/cpanel</p>
+                            <button>
+                                <img src="./images/icons/copy.svg" alt="icon" />
+                            </button>
+                        </div>
+                        <div class="drawer__content-row items-start">
+                            <p class="drawer__content-title">Notes</p>
+                            <p>
+                                Lremgilla maecenas quis feugiat in quam. Et ut viverra odio egestas
+                                dui arcu. Blandit mattis facilisis massa etiam quam. P
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Facebook Edit Content -->
+                    <div class="drawer__content facebook-edit-content">
+                        <div class="drawer__dropdown">
+                            <button class="drawer__dropdown-btn">Facebook</button>
+
+                            <ul class="drawer__dropdown-list">
+                                <li data-edit="cpanel-edit-content">cPanel</li>
+                                <li data-edit="website-edit-content">Website</li>
+                                <li data-edit="opensrs-edit-content">OpenSRS</li>
+                                <li data-edit="domains-edit-content">Domain</li>
+                                <li class="active" data-edit="facebook-edit-content">Facebook</li>
+                            </ul>
+                        </div>
+
+                        <form class="drawer__form">
+                            <div class="drawer__form-row">
+                                <label for="facebook-user-name">Username</label>
+                                <input type="text" id="facebook-user-name" value="creativefeed" />
+                            </div>
+                            <div class="drawer__form-row">
+                                <label for="facebook-password">Password</label>
+                                <input type="password" id="facebook-password" value="password123" />
+                            </div>
+                            <div class="drawer__form-row">
+                                <label for="facebook-url">URL</label>
+                                <input
+                                    type="url"
+                                    id="facebook-url"
+                                    value="https://creativefeed.com.au/cpanel"
+                                />
+                            </div>
+                            <div class="drawer__form-row items-start">
+                                <label for="facebook-notes">Notes</label>
+                                <textarea name="notes" id="facebook-notes"></textarea>
+                            </div>
+                            <div class="drawer__form-buttons">
+                                <button type="submit" class="btn primary-btn">Add Login</button>
+                                <button type="button" class="btn secondary-btn cancel-btn">
+                                    Cancel
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Open SRS Content -->
+                    <div class="drawer__content opensrs-content">
+                        <h5>OpenSRS</h5>
+                        <div class="drawer__content-row">
+                            <p class="drawer__content-title">Username</p>
+                            <p>creativefeed</p>
+                            <button>
+                                <img src="./images/icons/copy.svg" alt="icon" />
+                            </button>
+                        </div>
+                        <div class="drawer__content-row">
+                            <p class="drawer__content-title">Password</p>
+                            <input
+                                class="password-input"
+                                type="password"
+                                readonly
+                                data-id="opensrs-password"
+                            />
+                            <button>
+                                <img src="./images/icons/copy.svg" alt="icon" />
+                            </button>
+                            <button class="show-password-btn" data-id="opensrs-password">
+                                <img src="./images/icons/eye.svg" alt="icon" />
+                            </button>
+                        </div>
+                        <div class="drawer__content-row">
+                            <p class="drawer__content-title">URL</p>
+                            <p>https://creativefeed.com.au/cpanel</p>
+                            <button>
+                                <img src="./images/icons/copy.svg" alt="icon" />
+                            </button>
+                        </div>
+                        <div class="drawer__content-row items-start">
+                            <p class="drawer__content-title">Notes</p>
+                            <p>
+                                Lremgilla maecenas quis feugiat in quam. Et ut viverra odio egestas
+                                dui arcu. Blandit mattis facilisis massa etiam quam. P
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- OpenSRS Edit Content -->
+                    <div class="drawer__content opensrs-edit-content">
+                        <div class="drawer__dropdown">
+                            <button class="drawer__dropdown-btn">OpenSRS</button>
+
+                            <ul class="drawer__dropdown-list">
+                                <li data-edit="cpanel-edit-content">cPanel</li>
+                                <li data-edit="website-edit-content">Website</li>
+                                <li class="active" data-edit="opensrs-edit-content">OpenSRS</li>
+                                <li data-edit="domains-edit-content">Domain</li>
+                                <li data-edit="facebook-edit-content">Facebook</li>
+                            </ul>
+                        </div>
+
+                        <form class="drawer__form">
+                            <div class="drawer__form-row">
+                                <label for="opensrs-user-name">Username</label>
+                                <input type="text" id="opensrs-user-name" value="creativefeed" />
+                            </div>
+                            <div class="drawer__form-row">
+                                <label for="opensrs-password">Password</label>
+                                <input type="password" id="opensrs-password" value="password123" />
+                            </div>
+                            <div class="drawer__form-row">
+                                <label for="opensrs-url">URL</label>
+                                <input
+                                    type="url"
+                                    id="opensrs-url"
+                                    value="https://creativefeed.com.au/cpanel"
+                                />
+                            </div>
+                            <div class="drawer__form-row items-start">
+                                <label for="opensrs-notes">Notes</label>
+                                <textarea name="notes" id="opensrs-notes"></textarea>
+                            </div>
+                            <div class="drawer__form-buttons">
+                                <button type="submit" class="btn primary-btn">Add Login</button>
+                                <button type="button" class="btn secondary-btn cancel-btn">
+                                    Cancel
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- =========== JS ============ -->
+        <script src="./js/index.js"></script>
+        <script src="./js/dashboard.js"></script>
+    </body>
+</html>

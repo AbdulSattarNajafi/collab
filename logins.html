@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- ============ Montserrat Google Fonts ============ -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+            rel="stylesheet"
+        />
+        <!-- ========== Custom CSS Link ===========  -->
+        <link rel="stylesheet" href="./css/styles.css" />
+        <title>ActiveCollab</title>
+    </head>
+    <body>
+        <div class="layout">
+            <!-- =========== Sidebar Start ============ -->
+            <aside class="sidebar">
+                <div class="sidebar__logo">
+                    <a href="./index.html" class="sidebar__logo-link">
+                        <img src="./images/logo-2.svg" alt="Logo" />
+                    </a>
+                </div>
+
+                <nav class="sidebar__nav">
+                    <ul class="sidebar__nav-list">
+                        <li class="sidebar__nav-item">
+                            <a href="#" class="sidebar__nav-link active">
+                                <span class="sidebar__nav-icon">
+                                    <img src="./images/icons/users.svg" alt="icon" />
+                                </span>
+                                <span>Clients</span>
+                            </a>
+                        </li>
+                        <li class="sidebar__nav-item">
+                            <a href="#" class="sidebar__nav-link">
+                                <span class="sidebar__nav-icon">
+                                    <img src="./images/icons/cpannel.svg" alt="icon" />
+                                </span>
+                                <span>cPanels</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+            <!-- =========== Sidebar End ============ -->
+
+            <div class="main-content">
+                <!-- ----------- Header Start -------- -->
+                <header class="header">
+                    <div class="header__title">
+                        <button>
+                            <img src="./images/icons/chevron-left.svg" alt="icon" />
+                        </button>
+                        <h3>Australian Lease Management</h3>
+                    </div>
+                    <div class="header__search">
+                        <div class="header__search-wrapper">
+                            <form class="header__search-form">
+                                <input type="text" placeholder="Search..." />
+                            </form>
+                            <button id="search_btn">
+                                <img src="./images/icons/search.svg" alt="icon" />
+                            </button>
+                        </div>
+                        <div class="header__avatar">
+                            <img src="./images/icons/avatar.svg" alt="icon" />
+                        </div>
+                    </div>
+                </header>
+                <!-- ----------- Header End -------- -->
+
+                <!-- ----------- Menu Start -------- -->
+
+                <nav class="navigation">
+                    <div class="navigation__links">
+                        <ul class="navigation__list">
+                            <li class="navigation__list-item">
+                                <a href="./dashboard.html" class="navigation__list-link"
+                                    >Dashboard</a
+                                >
+                            </li>
+                            <li class="navigation__list-item">
+                                <a href="#" class="navigation__list-link">Details</a>
+                            </li>
+                            <li class="navigation__list-item">
+                                <a href="#" class="navigation__list-link active">Logins</a>
+                            </li>
+                            <li class="navigation__list-item">
+                                <a href="#" class="navigation__list-link">Domains</a>
+                            </li>
+                            <li class="navigation__list-item">
+                                <a href="#" class="navigation__list-link">Contacts</a>
+                            </li>
+                            <li class="navigation__list-item">
+                                <a href="#" class="navigation__list-link">Subscriptions</a>
+                            </li>
+                            <li class="navigation__list-item">
+                                <a href="#" class="navigation__list-link">Notes</a>
+                            </li>
+                        </ul>
+
+                        <button class="active-lab-btn">Active Collab</button>
+                    </div>
+
+                    <div class="navigation__buttons">
+                        <button>
+                            <img src="./images/icons/dots.svg" alt="icon" />
+                        </button>
+
+                        <button class="navigation__toggler-btn">
+                            <img src="./images/icons/menu.svg" alt="icon" />
+                        </button>
+                    </div>
+                </nav>
+
+                <!-- ----------- Menu End -------- -->
+
+                <main>
+                    <!-- ----------- Client Section Start -------- -->
+                    <section class="clients">
+                        <div class="card logins-page__card">
+                            <div class="card__header">
+                                <h4>Logins</h4>
+                                <button>
+                                    <img src="./images/icons/plus.svg" alt="icon" />
+                                </button>
+                            </div>
+
+                            <div class="card__body">
+                                <div class="card__body-list">
+                                    <!-- Item 1 -->
+                                    <li class="card__body-item">
+                                        <div class="logins-page__card-text">
+                                            <div class="logins-page__card-title">
+                                                <h5>SiteGlide</h5>
+                                            </div>
+                                            <div class="logins-page__card-website">
+                                                <p>Graham@creativefeed.com.au</p>
+                                                <button>
+                                                    <img src="./images/icons/copy.svg" alt="icon" />
+                                                </button>
+                                            </div>
+                                            <div class="logins-page__card-password">
+                                                <input
+                                                    type="password"
+                                                    value="my-password"
+                                                    class="password-input"
+                                                />
+                                                <button class="eye-btn">
+                                                    <img src="./images/icons/eye.svg" alt="icon" />
+                                                </button>
+                                                <button>
+                                                    <img src="./images/icons/copy.svg" alt="icon" />
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="logins-page__card-links">
+                                            <a href="https://www.google.com/" target="_blank">
+                                                <img src="./images/icons/link.svg" alt="icon" />
+                                            </a>
+                                            <div class="dropdown">
+                                                <button class="dropdown__btn">
+                                                    <img src="./images/icons/dots.svg" alt="icon" />
+                                                </button>
+
+                                                <div class="dropdonw__content">
+                                                    <button
+                                                        class="dropdonw__content-btn edit-logins-btn"
+                                                    >
+                                                        <img
+                                                            src="./images/icons/edit.svg"
+                                                            alt="icon"
+                                                        />
+                                                        <span>Edit</span>
+                                                    </button>
+                                                    <button class="dropdonw__content-btn">
+                                                        <img
+                                                            src="./images/icons/delete.svg"
+                                                            alt="icon"
+                                                        />
+                                                        <span>Delete</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <!-- Item 2 -->
+                                    <li class="card__body-item">
+                                        <div class="logins-page__card-text">
+                                            <div class="logins-page__card-title">
+                                                <h5>OpenSRS</h5>
+                                            </div>
+                                            <div class="logins-page__card-website">
+                                                <p>accounts@bodyintelligence.com</p>
+                                                <button>
+                                                    <img src="./images/icons/copy.svg" alt="icon" />
+                                                </button>
+                                            </div>
+                                            <div class="logins-page__card-password">
+                                                <input
+                                                    type="password"
+                                                    value="my-password23"
+                                                    class="password-input"
+                                                />
+                                                <button class="eye-btn">
+                                                    <img src="./images/icons/eye.svg" alt="icon" />
+                                                </button>
+                                                <button>
+                                                    <img src="./images/icons/copy.svg" alt="icon" />
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="logins-page__card-links">
+                                            <a href="https://www.google.com/" target="_blank">
+                                                <img src="./images/icons/link.svg" alt="icon" />
+                                            </a>
+                                            <div class="dropdown">
+                                                <button class="dropdown__btn">
+                                                    <img src="./images/icons/dots.svg" alt="icon" />
+                                                </button>
+
+                                                <div class="dropdonw__content">
+                                                    <button
+                                                        class="dropdonw__content-btn edit-logins-btn"
+                                                    >
+                                                        <img
+                                                            src="./images/icons/edit.svg"
+                                                            alt="icon"
+                                                        />
+                                                        <span>Edit</span>
+                                                    </button>
+                                                    <button class="dropdonw__content-btn">
+                                                        <img
+                                                            src="./images/icons/delete.svg"
+                                                            alt="icon"
+                                                        />
+                                                        <span>Delete</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <!-- Item 3 -->
+                                    <li class="card__body-item">
+                                        <div class="logins-page__card-text">
+                                            <div class="logins-page__card-title">
+                                                <h5>OpenSRS</h5>
+                                            </div>
+                                            <div class="logins-page__card-website">
+                                                <p>ged@bodyintelligence.com</p>
+                                                <button>
+                                                    <img src="./images/icons/copy.svg" alt="icon" />
+                                                </button>
+                                            </div>
+                                            <div class="logins-page__card-password">
+                                                <input
+                                                    type="password"
+                                                    value="my-passw"
+                                                    class="password-input"
+                                                />
+                                                <button class="eye-btn">
+                                                    <img src="./images/icons/eye.svg" alt="icon" />
+                                                </button>
+                                                <button>
+                                                    <img src="./images/icons/copy.svg" alt="icon" />
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="logins-page__card-links">
+                                            <a href="https://www.google.com/" target="_blank">
+                                                <img src="./images/icons/link.svg" alt="icon" />
+                                            </a>
+                                            <div class="dropdown">
+                                                <button class="dropdown__btn">
+                                                    <img src="./images/icons/dots.svg" alt="icon" />
+                                                </button>
+
+                                                <div class="dropdonw__content">
+                                                    <button
+                                                        class="dropdonw__content-btn edit-logins-btn"
+                                                    >
+                                                        <img
+                                                            src="./images/icons/edit.svg"
+                                                            alt="icon"
+                                                        />
+                                                        <span>Edit</span>
+                                                    </button>
+                                                    <button class="dropdonw__content-btn">
+                                                        <img
+                                                            src="./images/icons/delete.svg"
+                                                            alt="icon"
+                                                        />
+                                                        <span>Delete</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <!-- Item 4 -->
+                                    <li class="card__body-item">
+                                        <div class="logins-page__card-text">
+                                            <div class="logins-page__card-title">
+                                                <h5>OpenSRS</h5>
+                                            </div>
+                                            <div class="logins-page__card-website">
+                                                <p>resource@bodyintelligence.com</p>
+                                                <button>
+                                                    <img src="./images/icons/copy.svg" alt="icon" />
+                                                </button>
+                                            </div>
+                                            <div class="logins-page__card-password">
+                                                <input
+                                                    type="password"
+                                                    value="my-password1234"
+                                                    class="password-input"
+                                                />
+                                                <button class="eye-btn">
+                                                    <img src="./images/icons/eye.svg" alt="icon" />
+                                                </button>
+                                                <button>
+                                                    <img src="./images/icons/copy.svg" alt="icon" />
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="logins-page__card-links">
+                                            <a href="https://www.google.com/" target="_blank">
+                                                <img src="./images/icons/link.svg" alt="icon" />
+                                            </a>
+                                            <div class="dropdown">
+                                                <button class="dropdown__btn">
+                                                    <img src="./images/icons/dots.svg" alt="icon" />
+                                                </button>
+
+                                                <div class="dropdonw__content">
+                                                    <button
+                                                        class="dropdonw__content-btn edit-logins-btn"
+                                                    >
+                                                        <img
+                                                            src="./images/icons/edit.svg"
+                                                            alt="icon"
+                                                        />
+                                                        <span>Edit</span>
+                                                    </button>
+                                                    <button class="dropdonw__content-btn">
+                                                        <img
+                                                            src="./images/icons/delete.svg"
+                                                            alt="icon"
+                                                        />
+                                                        <span>Delete</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <!-- Item 5 -->
+                                    <li class="card__body-item">
+                                        <div class="logins-page__card-text">
+                                            <div class="logins-page__card-title">
+                                                <h5>OpenSRS</h5>
+                                            </div>
+                                            <div class="logins-page__card-website">
+                                                <p>rationalfield@bodyintelligence.com</p>
+                                                <!-- <button>
+                                                    <img src="./images/icons/copy.svg" alt="icon" />
+                                                </button> -->
+                                            </div>
+                                            <div class="logins-page__card-password">
+                                                <input
+                                                    type="password"
+                                                    value="my-password"
+                                                    class="password-input"
+                                                />
+                                                <button class="eye-btn">
+                                                    <img src="./images/icons/eye.svg" alt="icon" />
+                                                </button>
+                                                <button>
+                                                    <img src="./images/icons/copy.svg" alt="icon" />
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="logins-page__card-links">
+                                            <a href="https://www.google.com/" target="_blank">
+                                                <img src="./images/icons/link.svg" alt="icon" />
+                                            </a>
+                                            <div class="dropdown">
+                                                <button class="dropdown__btn">
+                                                    <img src="./images/icons/dots.svg" alt="icon" />
+                                                </button>
+
+                                                <div class="dropdonw__content">
+                                                    <button
+                                                        class="dropdonw__content-btn edit-logins-btn"
+                                                    >
+                                                        <img
+                                                            src="./images/icons/edit.svg"
+                                                            alt="icon"
+                                                        />
+                                                        <span>Edit</span>
+                                                    </button>
+                                                    <button class="dropdonw__content-btn">
+                                                        <img
+                                                            src="./images/icons/delete.svg"
+                                                            alt="icon"
+                                                        />
+                                                        <span>Delete</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <!-- Item 6 -->
+                                    <li class="card__body-item">
+                                        <div class="logins-page__card-text">
+                                            <div class="logins-page__card-title">
+                                                <h5>OpenSRS</h5>
+                                            </div>
+                                            <div class="logins-page__card-website">
+                                                <p>sales@bodyintelligence.com</p>
+                                                <!-- <button>
+                                                    <img src="./images/icons/copy.svg" alt="icon" />
+                                                </button> -->
+                                            </div>
+                                            <div class="logins-page__card-password">
+                                                <input
+                                                    type="password"
+                                                    value="my-password123"
+                                                    class="password-input"
+                                                />
+                                                <button class="eye-btn">
+                                                    <img src="./images/icons/eye.svg" alt="icon" />
+                                                </button>
+                                                <button>
+                                                    <img src="./images/icons/copy.svg" alt="icon" />
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="logins-page__card-links">
+                                            <a href="https://www.google.com/" target="_blank">
+                                                <img src="./images/icons/link.svg" alt="icon" />
+                                            </a>
+                                            <div class="dropdown">
+                                                <button class="dropdown__btn">
+                                                    <img src="./images/icons/dots.svg" alt="icon" />
+                                                </button>
+
+                                                <div class="dropdonw__content">
+                                                    <button
+                                                        class="dropdonw__content-btn edit-logins-btn"
+                                                    >
+                                                        <img
+                                                            src="./images/icons/edit.svg"
+                                                            alt="icon"
+                                                        />
+                                                        <span>Edit</span>
+                                                    </button>
+                                                    <button class="dropdonw__content-btn">
+                                                        <img
+                                                            src="./images/icons/delete.svg"
+                                                            alt="icon"
+                                                        />
+                                                        <span>Delete</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <!-- Item 7 -->
+                                    <li class="card__body-item">
+                                        <div class="logins-page__card-text">
+                                            <div class="logins-page__card-title">
+                                                <h5>Domain</h5>
+                                            </div>
+                                            <div class="logins-page__card-website">
+                                                <p>cfdomains</p>
+                                                <!-- <button>
+                                                    <img src="./images/icons/copy.svg" alt="icon" />
+                                                </button> -->
+                                            </div>
+                                            <div class="logins-page__card-password">
+                                                <input
+                                                    type="password"
+                                                    value="my-passwor"
+                                                    class="password-input"
+                                                />
+                                                <button class="eye-btn">
+                                                    <img src="./images/icons/eye.svg" alt="icon" />
+                                                </button>
+                                                <button>
+                                                    <img src="./images/icons/copy.svg" alt="icon" />
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="logins-page__card-links">
+                                            <a href="https://www.google.com/" target="_blank">
+                                                <img src="./images/icons/link.svg" alt="icon" />
+                                            </a>
+                                            <div class="dropdown">
+                                                <button class="dropdown__btn">
+                                                    <img src="./images/icons/dots.svg" alt="icon" />
+                                                </button>
+
+                                                <div class="dropdonw__content">
+                                                    <button
+                                                        class="dropdonw__content-btn edit-logins-btn"
+                                                    >
+                                                        <img
+                                                            src="./images/icons/edit.svg"
+                                                            alt="icon"
+                                                        />
+                                                        <span>Edit</span>
+                                                    </button>
+                                                    <button class="dropdonw__content-btn">
+                                                        <img
+                                                            src="./images/icons/delete.svg"
+                                                            alt="icon"
+                                                        />
+                                                        <span>Delete</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <!-- Item 8 -->
+                                    <li class="card__body-item">
+                                        <div class="logins-page__card-text">
+                                            <div class="logins-page__card-title">
+                                                <h5>Facebook</h5>
+                                            </div>
+                                            <div class="logins-page__card-website">
+                                                <p>graham.west</p>
+                                                <!-- <button>
+                                                    <img src="./images/icons/copy.svg" alt="icon" />
+                                                </button> -->
+                                            </div>
+                                            <div class="logins-page__card-password">
+                                                <input
+                                                    type="password"
+                                                    value="my-password1234"
+                                                    class="password-input"
+                                                />
+                                                <button class="eye-btn">
+                                                    <img src="./images/icons/eye.svg" alt="icon" />
+                                                </button>
+                                                <button>
+                                                    <img src="./images/icons/copy.svg" alt="icon" />
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="logins-page__card-links">
+                                            <a href="https://www.google.com/" target="_blank">
+                                                <img src="./images/icons/link.svg" alt="icon" />
+                                            </a>
+                                            <div class="dropdown">
+                                                <button class="dropdown__btn">
+                                                    <img src="./images/icons/dots.svg" alt="icon" />
+                                                </button>
+
+                                                <div class="dropdonw__content">
+                                                    <button
+                                                        class="dropdonw__content-btn edit-logins-btn"
+                                                    >
+                                                        <img
+                                                            src="./images/icons/edit.svg"
+                                                            alt="icon"
+                                                        />
+                                                        <span>Edit</span>
+                                                    </button>
+                                                    <button class="dropdonw__content-btn">
+                                                        <img
+                                                            src="./images/icons/delete.svg"
+                                                            alt="icon"
+                                                        />
+                                                        <span>Delete</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- ----------- Client Section End -------- -->
+                </main>
+            </div>
+        </div>
+
+        <!-- =========== JS ============ -->
+        <script src="./js/index.js"></script>
+        <script src="./js/logins.js"></script>
+    </body>
+</html>
